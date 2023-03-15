@@ -19,7 +19,7 @@ var (
 	pictureURLs    = strings.Split(pictureURLsRaw, "\n")
 )
 
-var fleets = []int{1, 2, 3, 4, 6, 8, 10, 12, 16, 20, 24, 28, 32}
+var fleets = []int{1, 2, 3, 4, 6, 8, 10, 12, 16, 20, 24, 28, 32, 48, 64, 80, 96, 112, 128}
 
 // BenchmarkDownloadConvertAndWriteWorkers:
 // Download jpeg files from the internet, convert them to png, write png files
